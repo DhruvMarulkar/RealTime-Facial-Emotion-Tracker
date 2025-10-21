@@ -13,3 +13,29 @@ A Python application that detects your facial expressions in real-time using you
 - Logs emotion to `emotion_log.csv` only when the top emotion changes  
 - Handles frames where **no face is detected** gracefully  
 
+## Installation
+
+For avoiding conflicts with system libraries, it is advised to create a virtual environment:
+
+```bash
+python3 -m venv venv
+source ./venv/bin/activate
+```
+
+1. Clone the repository locally
+
+```bash
+git clone https://github.com/DhruvMarulkar/RealTime-Facial-Emotion-Tracker 
+```
+
+2. Install the required libraries
+
+```bash
+pip -r requirements.txt
+```
+
+3. Run the file
+
+```
+python3 emotions.py
+```
