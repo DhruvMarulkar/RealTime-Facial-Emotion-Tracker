@@ -31,7 +31,7 @@ git clone https://github.com/DhruvMarulkar/RealTime-Facial-Emotion-Tracker
 2. Install the required libraries
 
 ```bash
-pip -r requirements.txt
+pip install -r requirements.txt
 ```
 
 3. Run the file
